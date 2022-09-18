@@ -1,0 +1,37 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#cabecalho {
+    height: 140px;
+    background-color: orange;
+}
+
+#menu {
+    height: 370px;
+    width: 318px;
+    background-color: green;
+    float: left;
+}
+
+#principal {
+    height: 370px;
+    width: 700px;
+    background-color: cadetblue;
+    float: left;
+}
+
+#lado {
+    height: 370px;
+    width: 320px;
+    background-color: cyan;
+    float: left;
+}
+
+#rodape {
+    height: 80px;
+    background-color: burlywood;
+    clear: both
+}

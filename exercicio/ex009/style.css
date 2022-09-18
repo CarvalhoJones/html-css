@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    height: 10px;
+    width: 900px;
+}
+
+.text h1 {
+    font: normal normal 32px Lato, sans-serif;
+    padding-top: 280px;
+    padding-left: 25px;
+}
+
+.paragraph {
+    height: 800px;
+    width: 900px;
+}
+
+.paragraph > .lado {
+    height: 200px;
+    width: 300px;
+}
+
+.paragraph > p {
+    font: normal normal 16px Lato, sans-serif; 
+    margin: 25px 0;
+    padding: 5px 25px;
+    line-height: 2;
+    text-align: justify;
+}
+
+#container {
+    position: fixed;
+}
+
+.header {
+    background:white;
+    margin: 0 auto;
+    padding: 25px 0;
+    font: normal normal 60px Lato, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;   
+}
+
+.title {
+    font-size: 18px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {  
+    background: #34495e;
+}
+
+.menu > a {
+    display: inline-block;
+    
+    padding: 15px 15px 0px 15px;
+    font: normal normal 16px Lato, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
